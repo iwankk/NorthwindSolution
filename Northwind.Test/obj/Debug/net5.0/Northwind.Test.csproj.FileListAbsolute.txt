@@ -1,0 +1,651 @@
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\testhost.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\testhost.exe
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.deps.json
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.runtimeconfig.json
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.runtimeconfig.dev.json
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.assert.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.core.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.execution.dotnet.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.AssemblyReference.cache
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.AssemblyInfoInputs.cache
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.AssemblyInfo.cs
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.CoreCompileInputs.cache
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.CopyComplete
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\refint\Northwind.Test.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.genruntimeconfig.cache
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\ref\Northwind.Test.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.7z
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.bz2
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.gz
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.tar
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.xz
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.zip
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.docx
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.odt
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.pdf
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.rtf
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.avif
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.bmp
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.dds
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.dib
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.emf
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.exif
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.gif
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.heic
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.heif
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.ico
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.j2c
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jfif
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jp2
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpc
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpe
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpg
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jxr
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pbm
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pcx
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pgm
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.png
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.ppm
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.rle
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.tga
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.tif
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.wdp
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.webp
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.wmp
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\sheet\empty.ods
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\sheet\empty.xlsx
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\slide\empty.odp
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\slide\empty.pptx
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\appsettings.json
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\AutoMapper.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\DiffEngine.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Shouldly.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.CodeDom.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Management.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Text.Json.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Contracts.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Domain.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Persistence.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.dll
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Persistence.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Contracts.pdb
+D:\.NET Bootcamp\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Domain.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\testhost.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.7z
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.bz2
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.gz
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.tar
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.xz
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.zip
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.docx
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.odt
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.pdf
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.rtf
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.avif
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.bmp
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.dds
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.dib
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.emf
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.exif
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.gif
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.heic
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.heif
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.ico
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.j2c
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jfif
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jp2
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpc
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpe
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpg
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jxr
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pbm
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pcx
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pgm
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.png
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.ppm
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.rle
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.tga
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.tif
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.wdp
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.webp
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.wmp
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\sheet\empty.ods
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\sheet\empty.xlsx
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\slide\empty.odp
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\slide\empty.pptx
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\testhost.exe
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\appsettings.json
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.deps.json
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.runtimeconfig.json
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.runtimeconfig.dev.json
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\AutoMapper.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\DiffEngine.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\NuGet.Frameworks.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Shouldly.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.CodeDom.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Management.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Security.Permissions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Text.Json.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Windows.Extensions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.abstractions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.assert.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.core.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.execution.dotnet.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Contracts.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Domain.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Persistence.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.dll
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Persistence.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Contracts.pdb
+D:\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Domain.pdb
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.AssemblyReference.cache
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.AssemblyInfoInputs.cache
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.AssemblyInfo.cs
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.CoreCompileInputs.cache
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.CopyComplete
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.dll
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\refint\Northwind.Test.dll
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.genruntimeconfig.cache
+D:\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\ref\Northwind.Test.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\testhost.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.7z
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.bz2
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.gz
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.tar
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.xz
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\archive\empty.zip
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.docx
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.odt
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.pdf
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\document\empty.rtf
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.avif
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.bmp
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.dds
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.dib
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.emf
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.exif
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.gif
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.heic
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.heif
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.ico
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.j2c
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jfif
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jp2
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpc
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpe
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jpg
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.jxr
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pbm
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pcx
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.pgm
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.png
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.ppm
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.rle
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.tga
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.tif
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.wdp
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.webp
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\image\empty.wmp
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\sheet\empty.ods
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\sheet\empty.xlsx
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\slide\empty.odp
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles\slide\empty.pptx
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\testhost.exe
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\appsettings.json
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.deps.json
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.runtimeconfig.json
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.runtimeconfig.dev.json
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Test.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\DiffEngine.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\EmptyFiles.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\NuGet.Frameworks.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Shouldly.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Management.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Security.Permissions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.abstractions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.assert.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.core.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\xunit.execution.dotnet.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Domain.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Persistence.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Persistence.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Services.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\bin\Debug\net5.0\Northwind.Domain.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.AssemblyInfo.cs
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.csproj.CopyComplete
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\refint\Northwind.Test.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\Northwind.Test.genruntimeconfig.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Test\obj\Debug\net5.0\ref\Northwind.Test.dll

@@ -1,0 +1,50 @@
+﻿@model List<Employee>
+@{
+   //Layout = null;
+   //untuk mematikan javastript
+}
+
+<div>
+    <h3 align ="Center">
+    <u>
+        List of Person
+    </u>
+        
+    </h3>
+    
+    @*    @foreach (var item in @Model)
+    {
+        <ul>
+
+            <li>
+                @item.Id @item.Name @item.BirthDate
+
+            </li>
+        </ul>
+
+    }*@
+
+      <table class="table">
+  <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">FullName</th>
+              <th scope="col">Email</th>
+              <th scope="col">Birth Date</th>
+            </tr>
+  </thead>
+      <tbody>
+            @foreach (var item in @Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.BirthDate</td>
+                </tr>
+            }
+      </tbody>
+  </table>
+
+</div> 
+</div> 

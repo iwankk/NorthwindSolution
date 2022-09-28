@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Northwind.Contracts",
+    "\\Northwind.Domain",
+    "\\Northwind.Persistence",
+    "\\Northwind.Web"
+  ],
+  "SelectedNode": "\\NorthwindSolution.sln",
+  "PreviewInSolutionExplorer": false
+}
