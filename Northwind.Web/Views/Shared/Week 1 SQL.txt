@@ -1,8 +1,0 @@
-Week 3 Entity Framework
-Monday	29/8/22 Data Structure D08 	(OOP/Encapsulasi/Heritage) Make OOP Programmer from Employe, Make OOP Sales & Qa dari Employe
-Tuesday	30/8/22 Data Structure D09	(OOP/Interface)Make interface OOP Programmer dari Employe,Make OOP Sales & Qa dari Employe/QUIZ5
-Wednesday 	31/8/22	Data Structure D10	(OOP/Abstrack) Make file baru untuk abstrack bernama person  dan pengenalan library Linq
-Thursday	1/9/22	Data Structure D11	(Final test)
-Friday 	2/9/22	Data Structure D12	(LIBUR) Kang dian Pulang
-Saturday 	3/9/22	Data Structure D13	(Entity Framework 1 Lewat Video)
-Sunday	4/9/22 	Data Structure D14	(Entity Framework 2 Lewat Video)

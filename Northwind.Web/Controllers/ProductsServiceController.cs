@@ -15,28 +15,18 @@ namespace Northwind.Web.Controllers
 {
     public class ProductsServiceController : Controller
     {
-        private readonly NorthwindContext _context;
-        private readonly IServiceManager _servicecontext;
+        private readonly IServiceManager _context;
 
-        /*public ProductsServiceController()
-        {
-        }
-*/
-        public ProductsServiceController(NorthwindContext context, IServiceManager servicecontext)
+        public ProductsServiceController(IServiceManager context)
         {
             _context = context;
-
-            _servicecontext = servicecontext;
         }
 
         // GET: ProductsService
-        public async Task<IActionResult> Index(string searchString,
-            string currentFilter, int? page)
+        public async Task<IActionResult> Index(string searchString, string currentFilter, int? page)
         {
             var pageNumber = page ?? 1;
-
-            //keep state searching value
-            if(searchString != null)
+            if (searchString != null)
             {
                 page = 1;
             }
@@ -44,19 +34,15 @@ namespace Northwind.Web.Controllers
             {
                 searchString = currentFilter;
             }
+            ViewBag.CurrentFilter = searchString;
 
-            ViewBag.currentFilter = searchString;
-
-            var productDtos = await _servicecontext.ProductService.GetAllProduct(false);
-            
-            if(!string.IsNullOrEmpty(searchString))
+            var product = await _context.ProductService.GetAllProduct(false);
+            if (!String.IsNullOrEmpty(searchString))
             {
-                productDtos = productDtos.Where(p => p.ProductName.ToLower().Contains(searchString.ToLower()));
+                product = product.Where(p => p.ProductName.ToLower().Contains(searchString.ToLower()) ||
+                p.Supplier.CompanyName.ToLower().Contains(searchString.ToLower()));
             }
-
-            
-            return View(productDtos.ToPagedList(pageNumber,5));
-
+            return View(product.ToPagedList(pageNumber, 10));
         }
 
         // GET: ProductsService/Details/5
@@ -66,11 +52,7 @@ namespace Northwind.Web.Controllers
             {
                 return NotFound();
             }
-
-            var product = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Supplier)
-                .FirstOrDefaultAsync(m => m.ProductId == id);
+            var product = await _context.ProductService.GetProductById((int)id, false);
             if (product == null)
             {
                 return NotFound();
@@ -80,10 +62,12 @@ namespace Northwind.Web.Controllers
         }
 
         // GET: ProductsService/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName");
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName");
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName");
             return View();
         }
 
@@ -92,16 +76,17 @@ namespace Northwind.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] ProductForCreateDto product)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(product);
-                await _context.SaveChangesAsync();
+                _context.ProductService.Insert(product);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", product.SupplierId);
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName", product.SupplierId);
             return View(product);
         }
 
@@ -112,14 +97,15 @@ namespace Northwind.Web.Controllers
             {
                 return NotFound();
             }
-
-            var product = await _context.Products.FindAsync(id);
+            var product = await _context.ProductService.GetProductById((int)id, true);
             if (product == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", product.SupplierId);
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName", product.SupplierId);
             return View(product);
         }
 
@@ -128,7 +114,7 @@ namespace Northwind.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] ProductDto product)
         {
             if (id != product.ProductId)
             {
@@ -139,24 +125,18 @@ namespace Northwind.Web.Controllers
             {
                 try
                 {
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
+                    _context.ProductService.Edit(product);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.ProductId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", product.SupplierId);
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName", product.SupplierId);
             return View(product);
         }
 
@@ -167,11 +147,7 @@ namespace Northwind.Web.Controllers
             {
                 return NotFound();
             }
-
-            var product = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Supplier)
-                .FirstOrDefaultAsync(m => m.ProductId == id);
+            var product = await _context.ProductService.GetProductById((int)id, false);
             if (product == null)
             {
                 return NotFound();
@@ -185,15 +161,9 @@ namespace Northwind.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
+            var product = await _context.ProductService.GetProductById((int)id, false);
+            _context.ProductService.Remove(product);
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool ProductExists(int id)
-        {
-            return _context.Products.Any(e => e.ProductId == id);
         }
     }
 }

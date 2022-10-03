@@ -1,51 +1,27 @@
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.deps.json
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.json
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.dev.json
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.AssemblyReference.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.AssemblyInfoInputs.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.AssemblyInfo.cs
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.CoreCompileInputs.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.CopyComplete
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\refint\Northwind.Persistence.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.genruntimeconfig.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\ref\Northwind.Persistence.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Contracts.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Contracts.pdb
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.deps.json
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.json
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.dev.json
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.dll
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.pdb
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Contracts.dll
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.dll
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Contracts.pdb
-D:\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.pdb
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.AssemblyReference.cache
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.AssemblyInfoInputs.cache
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.AssemblyInfo.cs
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.CoreCompileInputs.cache
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.CopyComplete
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.dll
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\refint\Northwind.Persistence.dll
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.pdb
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.genruntimeconfig.cache
-D:\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\ref\Northwind.Persistence.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.deps.json
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.json
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.dev.json
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.AssemblyInfo.cs
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.CopyComplete
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\refint\Northwind.Persistence.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.genruntimeconfig.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Persistence\obj\Debug\net5.0\ref\Northwind.Persistence.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.deps.json
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.json
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.runtimeconfig.dev.json
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Persistence.pdb
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Contracts.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.dll
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Contracts.pdb
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\bin\Debug\net5.0\Northwind.Domain.pdb
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.csproj.AssemblyReference.cache
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Persistence\obj\Debug\net5.0\Northwind.Persistence.GeneratedMSBuildEditorConfig.editorconfig

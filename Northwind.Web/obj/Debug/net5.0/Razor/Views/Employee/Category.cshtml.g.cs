@@ -27,7 +27,7 @@ using Northwind.Web.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8d9f39e038349ec9194b0379607bb694606a2e45", @"/Views/Employee/Category.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dad76091869ede8adbd28e701c0fcdceb8678800", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e04b3578726f96387e8a1348caae26076747fc66", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Employee_Category : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

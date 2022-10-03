@@ -1,5 +1,4 @@
 ﻿using Northwind.Domain.Repositories;
-using Northwind.Domain.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +10,12 @@ namespace Northwind.Domain.Base
     public interface IRepositoryManager
     {
         ICategoryRepository CategoryRepository { get; }
-
-        ICustomerRepository CustomerRepository { get; }
+        ICustomerRepository EmployeeRepository { get; }
         IProductRepository ProductRepository { get; }
-        IProductPhotoRepository ProductPhotoRepository { get; }
-
+        ISupplierRepository SupplierRepository { get; }
+        IProductPhotoPhotoRepository ProductPhotoRepository { get; }
+        IOrderRepository OrdersRepository { get; }
+        IOrderDetailsRepository OrderDetailsRepository { get; }
 
         void Save();
 

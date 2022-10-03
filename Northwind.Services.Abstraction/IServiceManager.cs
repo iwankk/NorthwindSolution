@@ -9,8 +9,10 @@ namespace Northwind.Services.Abstraction
     public interface IServiceManager
     {
         ICategoryService CategoryService { get; }
+        ISupplierService SupplierService { get; }
         IProductService ProductService { get; }
         IProductPhotoService ProductPhotoService { get; }
-
+        IOrderService OrderService { get; }
+        IOrderDetailsService OrderDetailsService { get; }
     }
 }

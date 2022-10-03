@@ -1,4 +1,4 @@
-﻿/*using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -6,11 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Northwind.Domain.Enities;
+using Northwind.Domain.Entities;
 
 namespace Northwind.Persistence
 {
-    //jangan lupa di public
     public class ShopeePopulateData
     {
         public static void PopulateData(IApplicationBuilder app)
@@ -22,24 +21,26 @@ namespace Northwind.Persistence
             {
                 context.Database.Migrate();
             }
+
             if (!context.Categories.Any())
             {
                 context.Categories.AddRange(
-                    new Category { CategoryName = "Laptop", Description = "Komputer,laptop,Pc" },
-                    new Category { CategoryName = "Handphone", Description = "Hp" },
-                    new Category { CategoryName = "T-Shirt", Description = "T-Shirt Name" }
+                    new Category { CategoryName="Laptop",Description="Komputer, laptop,pc",Photo=string.Empty},
+                    new Category { CategoryName = "Handphone", Description = "Hp", Photo = string.Empty },
+                    new Category { CategoryName = "T-Shirt", Description = "T-Shirt man", Photo = string.Empty }
                     );
-
             }
-            if (!context.Products.Any())
+
+          /*  if (!context.Products.Any())
             {
                 context.Products.AddRange(
                     new Product
                     {
-                    Name = "Monitor LG",
-                    Description = "LG 16Inch",
-                    CategoryId = 1,
-                    Price = 500_000
+                        Name = "Monitor LG",
+                        Description = "LG 16Inch",
+                        CategoryId = 1,
+                        Price = 500_000,
+                        PhotoImage=String.Empty
                     },
                     new Product
                     {
@@ -90,11 +91,9 @@ namespace Northwind.Persistence
                          CategoryId = 3,
                          Price = 58_000
                      }
-                    );
-
-            }
+                );
+            }*/
             context.SaveChanges();
         }
     }
 }
-*/

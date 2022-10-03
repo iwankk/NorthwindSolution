@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Northwind.Contracts.Dto.Category;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Northwind.Contracts.Dto.Category;
-
 
 namespace Northwind.Services.Abstraction
 {
@@ -10,7 +11,7 @@ namespace Northwind.Services.Abstraction
     {
         Task<IEnumerable<CategoryDto>> GetAllCategory(bool trackChanges);
 
-        Task<CategoryDto> GetCategoryById(string customerId, bool trackChanges);
+        Task<CategoryDto> GetCategoryById(int categoryId, bool trackChanges);
 
         void Insert(CategoryForCreateDto categoryForCreateDto);
 

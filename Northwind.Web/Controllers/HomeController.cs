@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Northwind.Web.Repository;
 
 namespace Northwind.Web.Controllers
 {
@@ -21,18 +20,16 @@ namespace Northwind.Web.Controllers
 
         public IActionResult Index()
         {
-            var myName = "Iwan";
-            return View("Index", myName);
+            var myName = "Iwan K";
+            return View("Index",myName);
         }
-
-
 
         public IActionResult Privacy()
         {
             var hour = DateTime.Now.Hour;
-            //Tennary Operation (If/Else)
-            var waktu = hour > 12 ? "Good Day" : "Good Mornig";
-            return View("privacy",waktu);
+            // ternary operation
+            var greeting = hour > 12 ? "Good Day" : "Good Morning";
+            return View("Privacy",greeting);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

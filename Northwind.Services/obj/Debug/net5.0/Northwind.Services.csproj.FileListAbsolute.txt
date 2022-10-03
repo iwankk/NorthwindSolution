@@ -1,41 +1,27 @@
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.deps.json
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.AssemblyReference.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.GeneratedMSBuildEditorConfig.editorconfig
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfoInputs.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfo.cs
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CoreCompileInputs.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CopyComplete
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\refint\Northwind.Services.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\ref\Northwind.Services.dll
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.deps.json
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.dll
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.pdb
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.dll
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.dll
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.pdb
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
-D:\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.pdb
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.AssemblyReference.cache
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.GeneratedMSBuildEditorConfig.editorconfig
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfoInputs.cache
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfo.cs
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CoreCompileInputs.cache
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CopyComplete
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.dll
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\refint\Northwind.Services.dll
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.pdb
-D:\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\ref\Northwind.Services.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Services.deps.json
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Services.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Services.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfo.cs
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CopyComplete
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\refint\Northwind.Services.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\Northwind.Services.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services\obj\Debug\net5.0\ref\Northwind.Services.dll
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfo.cs
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.deps.json
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.pdb
@@ -45,11 +31,6 @@ C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Domain.pdb
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\bin\Debug\net5.0\Northwind.Contracts.pdb
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.AssemblyReference.cache
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfoInputs.cache
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.AssemblyInfo.cs
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.csproj.CopyComplete
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\Northwind.Services.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services\obj\Debug\net5.0\refint\Northwind.Services.dll

@@ -19,7 +19,7 @@ namespace Northwind.Persistence.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Northwind.Domain.Enities.Category", b =>
+            modelBuilder.Entity("Northwind.Domain.Entities.Category", b =>
                 {
                     b.Property<int>("CategoryId")
                         .ValueGeneratedOnAdd()
@@ -40,7 +40,7 @@ namespace Northwind.Persistence.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Northwind.Domain.Enities.Product", b =>
+            modelBuilder.Entity("Northwind.Domain.Entities.Product", b =>
                 {
                     b.Property<long?>("ProductId")
                         .ValueGeneratedOnAdd()
@@ -69,9 +69,9 @@ namespace Northwind.Persistence.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Northwind.Domain.Enities.Product", b =>
+            modelBuilder.Entity("Northwind.Domain.Entities.Product", b =>
                 {
-                    b.HasOne("Northwind.Domain.Enities.Category", "Category")
+                    b.HasOne("Northwind.Domain.Entities.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -80,7 +80,7 @@ namespace Northwind.Persistence.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("Northwind.Domain.Enities.Category", b =>
+            modelBuilder.Entity("Northwind.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Products");
                 });

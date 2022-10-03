@@ -1,6 +1,5 @@
 ﻿using Northwind.Domain.Base;
 using Northwind.Domain.Repositories;
-using Northwind.Domain.Repository;
 using Northwind.Persistence.Repositories;
 using System;
 using System.Collections.Generic;
@@ -16,8 +15,10 @@ namespace Northwind.Persistence.Base
         private ICategoryRepository _categoryRepository;
         private ICustomerRepository _customerRepository;
         private IProductRepository _productRepository;
-        private IProductPhotoRepository _productPhotoRepository;
-
+        private ISupplierRepository _supplierRepository;
+        private IProductPhotoPhotoRepository _productPhotoRepository;
+        private IOrderRepository _orderRepository;
+        private IOrderDetailsRepository _orderDetailsRepository;
         public RepositoryManager(NorthwindContext dbContext)
         {
             _dbContext = dbContext;
@@ -35,8 +36,7 @@ namespace Northwind.Persistence.Base
             }
         }
 
-        /// <summary>
-        public ICustomerRepository CustomerRepository
+        public ICustomerRepository EmployeeRepository
         {
             get
             {
@@ -47,8 +47,9 @@ namespace Northwind.Persistence.Base
                 return _customerRepository;
             }
         }
-        public IProductRepository ProductRepository
-        {
+
+        public IProductRepository ProductRepository 
+        { 
             get
             {
                 if (_productRepository == null)
@@ -59,8 +60,20 @@ namespace Northwind.Persistence.Base
             }
         }
 
-        public IProductPhotoRepository ProductPhotoRepository
-        {
+        public ISupplierRepository SupplierRepository 
+        { 
+            get
+            {
+                if (_supplierRepository == null)
+                {
+                    _supplierRepository = new SupplierRepository(_dbContext);
+                }
+                return _supplierRepository;
+            }
+        }
+
+        public IProductPhotoPhotoRepository ProductPhotoRepository 
+        { 
             get
             {
                 if (_productPhotoRepository == null)
@@ -68,6 +81,30 @@ namespace Northwind.Persistence.Base
                     _productPhotoRepository = new ProductPhotoRepository(_dbContext);
                 }
                 return _productPhotoRepository;
+            }
+        }
+
+        public IOrderRepository OrdersRepository
+        {
+            get
+            {
+                if (_orderRepository == null)
+                {
+                    _orderRepository = new OrderRepository(_dbContext);
+                }
+                return _orderRepository;
+            }
+        }
+
+        public IOrderDetailsRepository OrderDetailsRepository
+        {
+            get
+            {
+                if (_orderDetailsRepository == null)
+                {
+                    _orderDetailsRepository = new OrderDetailsRepository(_dbContext);
+                }
+                return _orderDetailsRepository;
             }
         }
 

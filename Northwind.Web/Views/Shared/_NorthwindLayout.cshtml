@@ -16,17 +16,16 @@
       class="light-style layout-menu-fixed"
       dir="ltr"
       data-theme="theme-default"
-      data-assets-path="~/lib/assets/"
+      data-assets-path="~/lib/sneat-1.0.0/assets/"
       data-template="vertical-menu-template-free">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>Northwind</title>
 
     <meta name="description" content="" />
-
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="~/lib/sneat-1.0.0/assets/img/favicon/favicon.ico" />
@@ -67,7 +66,7 @@
 
             <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
                 <div class="app-brand demo">
-                    <a href="" class="app-brand-link">
+                    <a href="index.html" class="app-brand-link">
                         <span class="app-brand-logo demo">
                             <svg width="25"
                                  viewBox="0 0 25 42"
@@ -114,126 +113,86 @@
                         <span class="app-brand-text demo menu-text fw-bolder ms-2">Northwind</span>
                     </a>
 
-                    <a href="" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
                         <i class="bx bx-chevron-left bx-sm align-middle"></i>
                     </a>
                 </div>
 
                 <div class="menu-inner-shadow"></div>
-                @*          <ul class="menu-inner py-1">*@
+
                 <ul class="menu-inner py-1">
                     <!-- Dashboard -->
-                    <li class="menu-header small text-uppercase active">
-                        <span class="menu-header-text">menus</span>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Dashboard</div>
+                        </a>
                     </li>
-                    <!-- Master -->
-                    <li class="menu-item active">
+
+       
+                    <li class="menu-header small text-uppercase active">
+                        <span class="menu-header-text">Menus</span>
+                    </li>
+                    <li class="menu-item active open">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            @*                <i class="menu-icon tf-icons bx bx-dock-top"></i>*@
-                            <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                            <i class="menu-icon tf-icons bx bx-dock-top"></i>
                             <div data-i18n="Account Settings">Master</div>
                         </a>
-
                         <ul class="menu-sub">
                             <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="Categories" asp-action="Index">
+                                <a class="menu-link" asp-area="" asp-controller="CategoriesService" asp-action="Index">
                                     <div data-i18n="Account">Category</div>
                                 </a>
                             </li>
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="CategoriesRepo" asp-action="Index">
-                                    <div data-i18n="Account">Category Repo</div>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-area="" asp-controller="CustomersRepo" asp-action="Index">
+                                    <div data-i18n="Notifications">Customers Repo</div>
                                 </a>
                             </li>
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="CategoriesService" asp-action="Index">
-                                    <div data-i18n="Notifications">Category Service</div>
-                                </a>
-                            </li>
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="ProductsService" asp-action="Index">
-                                    <div data-i18n="Notifications">Product Service</div>
-                                </a>
-                            </li>
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="ProductsPagedServer" asp-action="Index">
-                                    <div data-i18n="Notifications">Product Paged Server</div>
-                                </a>
-                            </li>
-                            <li class="menu-item active">
-                                <a asp-area="" asp-controller="Employee" asp-action="ListEmployee" class="menu-link">
-                                    <div data-i18n="Notifications">Employee</div>
-                                </a>
-                            </li>
-
                         </ul>
                     </li>
-
-                    <!-- Menu Sales -->
-                    <li class="menu-item active">
+                    <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
                             <div data-i18n="Authentications">Sales</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="Products" asp-action="Index">
+                            <li class="menu-item">
+                                <a asp-controller="ProductsService" asp-action="Index" class="menu-link">
                                     <div data-i18n="Basic">Product</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="auth-register-basic.html" class="menu-link" target="_blank">
-                                    <div data-i18n="Basic">Order</div>
+                                <a asp-controller="ProductsPagedServer" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Basic">Product Paging Server</div>
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="auth-forgot-password-basic.html" class="menu-link" target="_blank">
-                                    <div data-i18n="Basic">Shipper</div>
+                                <a asp-controller="ProductOnSale" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Basic">ProductOnSale</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-controller="Orders" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Basic">Orders</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a asp-controller="OrderDetails" asp-action="Index" class="menu-link">
+                                    <div data-i18n="Basic">Orders Details</div>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" asp-area="" asp-controller="SuppliersService" asp-action="Index">
+                                    <div data-i18n="Basic">Suppliers</div>
                                 </a>
                             </li>
                         </ul>
                     </li>
+                
+                    
 
-                    <!-- Menu Customer -->
-                    <li class="menu-item active">
-                        <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
-                            <div data-i18n="Authentications">Customer</div>
-                        </a>
-                        <ul class="menu-sub">
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="Customers" asp-action="Index">
-                                    <div data-i18n="Basic">Customers</div>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="auth-register-basic.html" class="menu-link" target="_blank">
-                                    <div data-i18n="Basic">Order</div>
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="auth-forgot-password-basic.html" class="menu-link" target="_blank">
-                                    <div data-i18n="Basic">Shipper</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <!-- Menu Person -->
-                    <li class="menu-item">
-                        <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
-                            <div data-i18n="Authentications">Person</div>
-                        </a>
-                        <ul class="menu-sub">
-                            <li class="menu-item active">
-                                <a class="menu-link" asp-area="" asp-controller="Employee" asp-action="Person">
-                                    <div data-i18n="Notifications">Account</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                  
             </aside>
             <!-- / Menu -->
             <!-- Layout container -->
@@ -276,8 +235,7 @@
                             <li class="nav-item navbar-dropdown dropdown-user dropdown">
                                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                                     <div class="avatar avatar-online">
-                                        @*                      <img src="~/lib/sneat-1.0.0/assets/img/avatars/Heru.png" alt class="w-px-40 h-auto rounded-circle" />*@
-                                        <img src="~/lib/sneat-1.0.0/assets/img/avatars/1.png" />
+                                        <img src="~/lib/sneat-1.0.0/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                                     </div>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
@@ -286,12 +244,11 @@
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 me-3">
                                                     <div class="avatar avatar-online">
-                                                        @*                              <img src="~/lib/sneat-1.0.0/assets/img/avatars/Heru.png" alt class="w-px-40 h-auto rounded-circle" />*@
-                                                        <img src="~/lib/sneat-1.0.0/assets/img/avatars/1.png" />
+                                                        <img src="~/lib/sneat-1.0.0/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
-                                                    <span class="fw-semibold d-block">IWAN</span>
+                                                    <span class="fw-semibold d-block">John Doe</span>
                                                     <small class="text-muted">Admin</small>
                                                 </div>
                                             </div>
@@ -346,39 +303,34 @@
                         <div class="row">
                             @RenderBody()
                         </div>
+                       
                     </div>
                     <!-- / Content -->
                     <!-- Footer -->
-                    @*            <footer class="content-footer footer bg-footer-theme">
+                    <footer class="content-footer footer bg-footer-theme">
                         <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-                        <div class="mb-2 mb-md-0">
-                        ©
-                        <script>
-                        document.write(new Date().getFullYear());
-                        </script>
-                        , made with ❤️ by
-                        <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-                        </div>
-                        <div>
-                        <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                        <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
+                            <div class="mb-2 mb-md-0">
+                                ©
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                , made with ❤️ by
+                                <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
+                            </div>
+                            <div>
+                                <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
+                                <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
 
-                        <a
-                        href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
-                        target="_blank"
-                        class="footer-link me-4"
-                        >Documentation</a
-                        >
+                                <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
+                                   target="_blank"
+                                   class="footer-link me-4">Documentation</a>
 
-                        <a
-                        href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
-                        target="_blank"
-                        class="footer-link me-4"
-                        >Support</a
-                        >
+                                <a href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
+                                   target="_blank"
+                                   class="footer-link me-4">Support</a>
+                            </div>
                         </div>
-                        </div>
-                        </footer>*@
+                    </footer>
                     <!-- / Footer -->
 
                     <div class="content-backdrop fade"></div>
@@ -394,11 +346,9 @@
     <!-- / Layout wrapper -->
 
     <div class="buy-now">
-        @*      <a
-            href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-            target="_blank"
-            class="btn btn-danger btn-buy-now"
-            >Upgrade to Pro</a>*@
+        <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
+           target="_blank"
+           class="btn btn-danger btn-buy-now">Upgrade to Pro</a>
     </div>
 
     <!-- Core JS -->
@@ -422,6 +372,5 @@
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
-
 </body>
 </html>

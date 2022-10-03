@@ -107,7 +107,7 @@ namespace Northwind.Web.Controllers
                     /*await _context.SaveChangesAsync();*/
                     _context.CategoryRepository.Edit(category);
                     await _context.SaveAsync();
-
+                    
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -158,11 +158,10 @@ namespace Northwind.Web.Controllers
             await _context.SaveAsync();
             return RedirectToAction(nameof(Index));
         }
-
-/*        private bool CategoryExists(int id)
+/*
+        private bool CategoryExists(int id)
         {
             return _context.Categories.Any(e => e.CategoryId == id);
         }*/
-
     }
 }

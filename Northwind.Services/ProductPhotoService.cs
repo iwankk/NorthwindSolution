@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Northwind.Contracts.Dto.Product;
+using Northwind.Contracts.Dto.Supplier;
 using Northwind.Domain.Base;
 using Northwind.Domain.Models;
 using Northwind.Services.Abstraction;
@@ -13,7 +14,7 @@ namespace Northwind.Services
 {
     public class ProductPhotoService : IProductPhotoService
     {
-        private IRepositoryManager _repositoryManager;
+        private readonly IRepositoryManager _repositoryManager;
         private readonly IMapper _mapper;
 
         public ProductPhotoService(IRepositoryManager repositoryManager, IMapper mapper)
@@ -22,34 +23,55 @@ namespace Northwind.Services
             _mapper = mapper;
         }
 
-        public void Edit(ProductPhotoDto productPhotoDto)
+        public void Edit(ProductPhotoDto ProductPhotoDto)
         {
-            throw new NotImplementedException();
+            var edit = _mapper.Map<ProductPhoto>(ProductPhotoDto);
+            _repositoryManager.ProductPhotoRepository.Edit(edit);
+            _repositoryManager.Save();
         }
 
         public async Task<IEnumerable<ProductPhotoDto>> GetAllProductPhoto(bool trackChanges)
         {
-            var categoryModel = await _repositoryManager.ProductPhotoRepository.GetAllProductPhoto(trackChanges);
-            //source = Category model, target Category Dto
-            var productPhotoDto = _mapper.Map<IEnumerable<ProductPhotoDto>>(categoryModel);
-            return productPhotoDto;
+            var ProductPhotoModel = await _repositoryManager.ProductPhotoRepository.GetAllProductPhoto(trackChanges);
+            var ProductPhotoDto = _mapper.Map<IEnumerable<ProductPhotoDto>>(ProductPhotoModel);
+            return ProductPhotoDto;
+        }
+        //tambahan edit
+        public async Task<ProductDto> GetProductDtoById(int productPhotoId, bool trackChange)
+        {
+            //throw new NotImplementedException();
+            var productModel = await _repositoryManager.ProductRepository.GetProductById(productPhotoId,trackChange);
+            var productDto = _mapper.Map<ProductDto>(productModel);
+            return productDto;
+        }
+        //akhir tambahan edit
+
+        public async Task<ProductPhotoDto> GetProductPhotoById(int ProductPhotoId, bool trackChanges)
+        {
+            var ProductPhotoModel = await _repositoryManager.ProductPhotoRepository.GetProductPhotoById(ProductPhotoId, trackChanges);
+            var ProductPhotoDto = _mapper.Map<ProductPhotoDto>(ProductPhotoModel);
+            return ProductPhotoDto;
         }
 
-        public Task<ProductPhotoDto> GetProductPhotoById(string photoId, bool trackChanges)
+        public async Task<IEnumerable<ProductPhotoDto>> GetProductPhotoPaged(int pageIndex, int pageSize, bool trackChanges)
         {
-            throw new NotImplementedException();
+            var ProductPhotoModel = await _repositoryManager.ProductPhotoRepository.GetProductPhotoPaged(pageIndex, pageSize, trackChanges);
+            var ProductPhotoDto = _mapper.Map<IEnumerable<ProductPhotoDto>>(ProductPhotoModel);
+            return ProductPhotoDto;
         }
 
-        public void Insert(ProductPhotoForCreateDto productPhotoCreatDto)
+        public void Insert(ProductPhotoCreateDto ProductPhotoForCreateDto)
         {
-            var productPhotoModel = _mapper.Map<ProductPhoto>(productPhotoCreatDto);
-            _repositoryManager.ProductPhotoRepository.Insert(productPhotoModel);
+            var insert = _mapper.Map<ProductPhoto>(ProductPhotoForCreateDto);
+            _repositoryManager.ProductPhotoRepository.Insert(insert);
             _repositoryManager.Save();
         }
 
-        public void Remove(ProductPhotoDto productPhotoDto)
+        public void Remove(ProductPhotoDto ProductPhotoDto)
         {
-            throw new NotImplementedException();
+            var remove = _mapper.Map<ProductPhoto>(ProductPhotoDto);
+            _repositoryManager.ProductPhotoRepository.Remove(remove);
+            _repositoryManager.Save();
         }
     }
 }

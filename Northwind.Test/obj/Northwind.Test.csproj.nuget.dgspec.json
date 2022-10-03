@@ -46,7 +46,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -146,9 +146,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\Iwan\\NorthwindSolution\\Northwind.Contracts\\Northwind.Contracts.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\Iwan\\NorthwindSolution\\Northwind.Contracts\\Northwind.Contracts.csproj"
-              },
               "C:\\Users\\User\\Documents\\Iwan\\NorthwindSolution\\Northwind.Domain\\Northwind.Domain.csproj": {
                 "projectPath": "C:\\Users\\User\\Documents\\Iwan\\NorthwindSolution\\Northwind.Domain\\Northwind.Domain.csproj"
               }
@@ -388,7 +385,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.11.0, )"
+              "version": "[17.1.0, )"
             },
             "Shouldly": {
               "target": "Package",
@@ -398,7 +395,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.2, )"
             },
             "xunit": {
               "target": "Package",

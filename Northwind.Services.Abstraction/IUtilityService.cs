@@ -9,7 +9,6 @@ namespace Northwind.Services.Abstraction
 {
     public interface IUtilityService
     {
-        string UploadSingleFile(IFormFile formFile);
-
+        string UploadSinggleFile(IFormFile formFile);
     }
 }

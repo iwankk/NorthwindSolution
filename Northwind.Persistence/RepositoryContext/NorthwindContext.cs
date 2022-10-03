@@ -44,22 +44,20 @@ namespace Northwind.Persistence
         public virtual DbSet<SalesTotalsByAmount> SalesTotalsByAmounts { get; set; }
         public virtual DbSet<SemuaProduct> SemuaProducts { get; set; }
         public virtual DbSet<Shipper> Shippers { get; set; }
-        public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<SummaryOfSalesByQuarter> SummaryOfSalesByQuarters { get; set; }
         public virtual DbSet<SummaryOfSalesByYear> SummaryOfSalesByYears { get; set; }
         public virtual DbSet<Supplier> Suppliers { get; set; }
         public virtual DbSet<Territory> Territories { get; set; }
         public virtual DbSet<ProductPhoto> ProductPhotos { get; set; }
 
-        //dimatikan
-        /*       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-               {
-                   if (!optionsBuilder.IsConfigured)
-                   {
-       #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                       optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Northwind;Trusted_Connection=True");
-                   }
-               }*/
+        /*        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+                {
+                    if (!optionsBuilder.IsConfigured)
+                    {
+        #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                        optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Northwind;Trusted_Connection=True");
+                    }
+                }*/
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -752,11 +750,6 @@ namespace Northwind.Persistence
                 entity.Property(e => e.Phone).HasMaxLength(24);
             });
 
-            modelBuilder.Entity<Student>(entity =>
-            {
-                entity.Property(e => e.FullName).IsRequired();
-            });
-
             modelBuilder.Entity<SummaryOfSalesByQuarter>(entity =>
             {
                 entity.HasNoKey();
@@ -839,9 +832,6 @@ namespace Northwind.Persistence
                     .HasConstraintName("FK_Territories_Region");
             });
 
-            OnModelCreatingPartial(modelBuilder);
-
-
             modelBuilder.Entity<ProductPhoto>(entity =>
             {
                 entity.HasKey(e => e.PhotoId)
@@ -860,9 +850,9 @@ namespace Northwind.Persistence
                     .HasForeignKey(d => d.PhotoProductId)
                     .HasConstraintName("FK_ProductPhotoIdProduct");
             });
+
+            OnModelCreatingPartial(modelBuilder);
         }
-
-
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }

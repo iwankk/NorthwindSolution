@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Northwind.Contracts.Dto.Category;
 using Northwind.Contracts.Dto.Product;
+using Northwind.Domain.Entities;
 using Northwind.Domain.Models;
 using Northwind.Persistence;
+using Northwind.Services;
 using Northwind.Services.Abstraction;
 using X.PagedList;
 
@@ -17,23 +20,26 @@ namespace Northwind.Web.Controllers
 {
     public class ProductsPagedServerController : Controller
     {
-        private readonly NorthwindContext _context;
-        private readonly IServiceManager _serviceContext;
+        private readonly NorthwindContext _conten;
+        private readonly IServiceManager _context;
         private readonly IUtilityService _utilityService;
-        public ProductsPagedServerController(NorthwindContext context, IServiceManager serviceContext, IUtilityService utilityService)
+
+        public ProductsPagedServerController(NorthwindContext conten, IServiceManager context, IUtilityService utilityService)
         {
+            _conten = conten;
             _context = context;
-            _serviceContext = serviceContext;
             _utilityService = utilityService;
         }
 
-        // GET: ProductsPagedServer
-        public async Task<IActionResult> Index(string sortOrder, string searchString,
-            string currentFilter, int? page, int? fetchSize)
+
+
+
+        // GET: ProductsService4
+        public async Task<IActionResult> Index(string searchString, string currentFilter,
+            string sortOrder, int? page, int? fetchSize)
         {
             var pageIndex = page ?? 1;
             var pageSize = fetchSize ?? 5;
-            //keep state searching value
             if (searchString != null)
             {
                 page = 1;
@@ -42,89 +48,132 @@ namespace Northwind.Web.Controllers
             {
                 searchString = currentFilter;
             }
+            ViewBag.CurrentFilter = searchString;
 
-            ViewBag.currentFilter = searchString;
-
-            var productDtos = await _serviceContext.ProductService.GetProductPaged(pageIndex, pageSize, false);
-
-            var totalRows = productDtos.Count();
-
-            if (!string.IsNullOrEmpty(searchString))
+            var productForSearch = await _context.ProductService.GetProductPaged(pageIndex, pageSize, false);
+            var totalRows = productForSearch.Count();
+            if (!String.IsNullOrEmpty(searchString))
             {
-                productDtos = productDtos.Where(p => p.ProductName.ToLower().Contains(searchString.ToLower()));
+                productForSearch = productForSearch.Where(p => p.ProductName.ToLower().Contains(searchString.ToLower()) ||
+                p.Supplier.CompanyName.ToLower().Contains(searchString.ToLower()));
             }
 
-            ViewBag.NameProductSort = String.IsNullOrEmpty(sortOrder) ? "nameProduct_desc" : "";
-            ViewBag.UnitPriceSort = sortOrder == "UnitPrice" ? "unitPrice_desc" : "UnitPrice";
-            var productSort = from item in productDtos
-                              select item;
+
+            ViewBag.ProductNameSort = String.IsNullOrEmpty(sortOrder) ? "product_name" : "";
+            ViewBag.UnitPriceSort = sortOrder == "price" ? "unit_price" : "price";
+
+            var productForSort = from p in productForSearch
+                                 select p;
             switch (sortOrder)
             {
-                case "nameProduct_desc":
-                    productSort = productSort.OrderByDescending(s => s.ProductName);
+                case "product_name":
+                    productForSort = productForSort.OrderByDescending(p => p.ProductName);
                     break;
-                case "UnitProduct_desc":
-                    productSort = productSort.OrderBy(s => s.UnitPrice);
+                case "price":
+                    productForSort = productForSort.OrderBy(p => p.UnitPrice);
+                    break;
+                case "unit_price":
+                    productForSort = productForSort.OrderByDescending(p => p.UnitPrice);
                     break;
                 default:
-                    productSort = productSort.OrderBy(s => s.ProductName);
+                    productForSort = productForSort.OrderBy(p => p.ProductName);
                     break;
             }
 
-            var productDtosPaged =
-                new StaticPagedList<ProductDto>(productSort, pageIndex, pageSize - (pageSize - 1), totalRows);
-            ViewBag.pageList = new SelectList(new List<int> { 8, 15, 20 });
-
-            return View(productDtosPaged);
+            var productDtoPaged = new StaticPagedList<ProductDto>(productForSort, pageIndex, pageSize - (pageSize - 1), totalRows);
+            ViewBag.PagedList = new SelectList(new List<int> { 8, 15, 20 });
+            return View(productDtoPaged);
         }
-        
-        /*public async Task<IActionResult> CreateProductPhoto(ProductPhotoGroupDto productPhotoDto)
-        {
-            return View("Create");
-        }*/
 
-        //POST : CreateProductPhoto
-        public async Task<IActionResult> CreateProductPhoto(ProductPhotoGroupDto productPhotoGroupDto)
+
+
+        [HttpPost]
+                public async Task<IActionResult> CreateProductPhoto(ProductPhotoGroupDto productPhotoGroupDto)
         {
             if (ModelState.IsValid)
             {
                 var productPhotoGroup = productPhotoGroupDto;
-                var listPhoto = new List<ProductPhotoForCreateDto>();
-
+                var listPhoto = new List<ProductPhotoCreateDto>();
                 foreach (var itemPhoto in productPhotoGroup.AllPhoto)
                 {
-                    var fileName = _utilityService.UploadSingleFile(itemPhoto);
-                    var photo = new ProductPhotoForCreateDto
+                    var fileName = _utilityService.UploadSinggleFile(itemPhoto);
+                    var photo = new ProductPhotoCreateDto
                     {
                         PhotoFilename = fileName,
                         PhotoFileSize = (short?)itemPhoto.Length,
                         PhotoFileType = itemPhoto.ContentType
-
                     };
-
                     listPhoto.Add(photo);
                 }
-                _serviceContext.ProductService.CreateProductManyPhoto(productPhotoGroup.ProductForCreateDto, listPhoto);
+                _context.ProductService.CreateProductManyPhoto(productPhotoGroupDto.productForCreateDto,listPhoto);
+                /*var photo1 = _utilityService.UploadSinggleFile(productPhotoDto.Photo1);
+                var photo2 = _utilityService.UploadSinggleFile(productPhotoDto.Photo2);
+                var photo3 = _utilityService.UploadSinggleFile(productPhotoDto.Photo3);*/
             }
 
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName");
+            ViewData["CategoryId"] = new SelectList(_conten.Categories, "CategoryId", "CategoryName");
+            ViewData["SupplierId"] = new SelectList(_conten.Suppliers, "SupplierId", "CompanyName");
+
             return View("Create");
+            /*var latestProductId = _context.ProductService.CreateProductId(productPhotoDto.productForCreateDto);
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var file = productPhotoDto.AllPhoto;
+                    var folderName = Path.Combine("Resources", "images");
+                    var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), folderName);
+                    if (file.Count > 0)
+                    {
+                        foreach (var item in file)
+                        {
+                            var fileName = ContentDispositionHeaderValue.Parse(item.ContentDisposition).FileName.Trim('"');
+                            var fullPath = Path.Combine(pathToSave, fileName);
+                            var dbPath = Path.Combine(folderName, fileName);
+                            using (var stream = new FileStream(fullPath, FileMode.Create))
+                            {
+                                item.CopyTo(stream);
+                            }
+
+                            var convertSize = (Int16)item.Length;
+
+                            var productPhoto = new ProductPhotoCreateDto
+                            {
+                                PhotoFilename = fileName,
+                                PhotoFileType = item.ContentType,
+                                PhotoFileSize = (byte)convertSize,
+                                PhotoProductId = latestProductId.ProductId
+                            };
+                            _context.ProductPhotoService.Insert(productPhoto);
+
+                        }
+                        return RedirectToAction(nameof(Index));
+
+                        *//*var productGroup = new ProductPhotoGroupDto
+                        {
+                            productForCreateDto = productPhotoDto.productForCreateDto,
+                            Photo1 = productPhotoDto.Photo1,
+                            Photo2 = productPhotoDto.Photo2,
+                            Photo3 = productPhotoDto.Photo3
+                        };*//*
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw;
+                }
+            }
+            return View();*/
         }
 
-
-        // GET: ProductsPagedServer/Details/5
+        // GET: ProductsService/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-
-            var product = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Supplier)
-                .FirstOrDefaultAsync(m => m.ProductId == id);
+            var product = await _context.ProductService.GetProductById((int)id, false);
             if (product == null)
             {
                 return NotFound();
@@ -133,56 +182,85 @@ namespace Northwind.Web.Controllers
             return View(product);
         }
 
-        // GET: ProductsPagedServer/Create
-        public IActionResult Create()
+        // GET: ProductsService/Create
+        public async Task<IActionResult> Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName");
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName");
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName");
             return View();
         }
 
-        // POST: ProductsPagedServer/Create
+        // POST: ProductsService/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] ProductForCreateDto product)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(product);
-                await _context.SaveChangesAsync();
+                _context.ProductService.Insert(product);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", product.SupplierId);
+
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName", product.SupplierId);
             return View(product);
         }
-
-        // GET: ProductsPagedServer/Edit/5
+        //perubahan edit
+        // GET: ProductsService/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            var product = await _context.ProductService.GetProductPhotoById((int)id, true);
+            var productPhoto = await _context.ProductPhotoService.GetProductDtoById((int)id, true);
+            if (ModelState.IsValid)
+            {
+                return View(product);
+            }
+
+            ViewData["CategoryId"] = new SelectList(_conten.Categories, "CategoryId", "CategoryName");
+            ViewData["SupplierId"] = new SelectList(_conten.Suppliers, "SupplierId", "CompanyName");
+
+            return View(product);
+            /*if (id == null)
             {
                 return NotFound();
             }
-
-            var product = await _context.Products.FindAsync(id);
+            var product = await _context.ProductService.GetProductById((int)id, true);
             if (product == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", product.SupplierId);
-            return View(product);
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName", product.SupplierId);
+            return View(product);*/
         }
+        //akhir
+        //tambahan edit
 
-        // POST: ProductsPagedServer/Edit/5
+        [HttpPost]
+        public async Task<IActionResult> EditProductPhoto(int? id)
+        {
+            if (ModelState.IsValid)
+            {
+                var product = await _context.ProductService.GetProductPhotoGroupById((int)id, true);
+                return View("Edit");
+            }
+            return View("Edit");
+        }
+        //batas tamabahan edit
+        // POST: ProductsService/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,SupplierId,CategoryId,QuantityPerUnit,UnitPrice,UnitsInStock,UnitsOnOrder,ReorderLevel,Discontinued")] ProductDto product)
         {
             if (id != product.ProductId)
             {
@@ -193,39 +271,29 @@ namespace Northwind.Web.Controllers
             {
                 try
                 {
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
+                    _context.ProductService.Edit(product);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductExists(product.ProductId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
-            ViewData["SupplierId"] = new SelectList(_context.Suppliers, "SupplierId", "CompanyName", product.SupplierId);
+            var allCategory = await _context.CategoryService.GetAllCategory(false);
+            var allSupplier = await _context.SupplierService.GetAllSupplier(false);
+            ViewData["CategoryId"] = new SelectList(allCategory, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["SupplierId"] = new SelectList(allSupplier, "SupplierId", "CompanyName", product.SupplierId);
             return View(product);
         }
 
-        // GET: ProductsPagedServer/Delete/5
+        // GET: ProductsService/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-
-            var product = await _context.Products
-                .Include(p => p.Category)
-                .Include(p => p.Supplier)
-                .FirstOrDefaultAsync(m => m.ProductId == id);
+            var product = await _context.ProductService.GetProductById((int)id, false);
             if (product == null)
             {
                 return NotFound();
@@ -234,20 +302,14 @@ namespace Northwind.Web.Controllers
             return View(product);
         }
 
-        // POST: ProductsPagedServer/Delete/5
+        // POST: ProductsService/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
+            var product = await _context.ProductService.GetProductById((int)id, false);
+            _context.ProductService.Remove(product);
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool ProductExists(int id)
-        {
-            return _context.Products.Any(e => e.ProductId == id);
         }
     }
 }

@@ -10,7 +10,6 @@ namespace Northwind.Domain.Models
         public Product()
         {
             OrderDetails = new HashSet<OrderDetail>();
-
             //ProductPhotos = new HashSet<ProductPhoto>();
         }
 
