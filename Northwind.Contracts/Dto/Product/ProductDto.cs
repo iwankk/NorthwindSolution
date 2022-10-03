@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Northwind.Contracts.Dto.Category;
+using Northwind.Contracts.Dto.Supplier;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +20,9 @@ namespace Northwind.Contracts.Dto.Product
         public short? UnitsOnOrder { get; set; }
         public short? ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
+
         public virtual CategoryDto Category { get; set; }
+        public virtual SupplierDto Supplier { get; set; }
+        public virtual ICollection<ProductPhotoDto> ProductPhotos { get; set; }
     }
 }

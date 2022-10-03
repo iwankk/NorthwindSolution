@@ -1,4 +1,6 @@
-﻿using Northwind.Contracts.Dto.Product;
+﻿using Northwind.Contracts.Dto.Category;
+using Northwind.Contracts.Dto.Product;
+using Northwind.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +13,15 @@ namespace Northwind.Services.Abstraction
     {
         Task<IEnumerable<ProductPhotoDto>> GetAllProductPhoto(bool trackChanges);
 
-        Task<ProductPhotoDto> GetProductPhotoById(string photoId, bool trackChanges);
+        Task<ProductPhotoDto> GetProductPhotoById(int productPhotoId, bool trackChanges);
+        
+        //tambahan Edit
+        Task<ProductDto> GetProductDtoById(int productPhotoId, bool trackChange);
+        //Akhir Tambahan
 
-        void Insert(ProductPhotoForCreateDto productPhotoCreatDto);
+        Task<IEnumerable<ProductPhotoDto>> GetProductPhotoPaged(int pageIndex, int pageSize, bool trackChanges);
+
+        void Insert(ProductPhotoCreateDto productPhotoCreateDto);
 
         void Edit(ProductPhotoDto productPhotoDto);
 

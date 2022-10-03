@@ -1,27 +1,15 @@
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.deps.json
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.csproj.AssemblyReference.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.AssemblyInfoInputs.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.AssemblyInfo.cs
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.csproj.CoreCompileInputs.cache
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\refint\Northwind.Domain.dll
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.pdb
-D:\.NET Bootcamp\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\ref\Northwind.Domain.dll
-D:\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.deps.json
-D:\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.dll
-D:\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.pdb
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.csproj.AssemblyReference.cache
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.AssemblyInfoInputs.cache
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.AssemblyInfo.cs
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.csproj.CoreCompileInputs.cache
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.dll
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\refint\Northwind.Domain.dll
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.pdb
-D:\NorthwindSolution\Northwind.Domain\obj\Debug\net5.0\ref\Northwind.Domain.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.deps.json
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.AssemblyInfo.cs
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\refint\Northwind.Domain.dll
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\Northwind.Domain.pdb
+C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Domain\obj\Debug\net5.0\ref\Northwind.Domain.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.deps.json
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Domain\bin\Debug\net5.0\Northwind.Domain.pdb

@@ -5,7 +5,6 @@ namespace Northwind.Web.Repository
 {
     public interface IEmployee
     {
-        public List<Employee> GetAll ();
-
+        public List<Employee> GetAll();
     }
 }

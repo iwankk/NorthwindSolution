@@ -1,25 +1,24 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Northwind.Web.Repository;
-using Northwind.Persistence;
-using Northwind.Domain;
-using Northwind.Domain.Enities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.Extensions.FileProviders;
-using System.IO;
-using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
 using Northwind.Domain.Base;
+using Northwind.Persistence;
 using Northwind.Persistence.Base;
 using Northwind.Services;
 using Northwind.Services.Abstraction;
+using Northwind.Web.Models;
+using Northwind.Web.Repository;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Northwind.Web
 {
@@ -36,21 +35,21 @@ namespace Northwind.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            // call Interface & Implementasi
-            services.AddScoped<IEmployee, Repository.EmployeeRepository>();
+            //call interface & implementation
+            services.AddScoped<IEmployee, EmployeeRepository>();
             services.AddScoped<IRepositoryManager, RepositoryManager>();
             services.AddScoped<IServiceManager, ServiceManager>();
-            services.AddScoped<IUtilityService, UtilityService>();
-            
-            //ditambahkan automapper
             services.AddAutoMapper(typeof(Startup));
-
-            //register dbcontext
+            //Pemanggilan foto
+            services.AddScoped<IUtilityService, UtilityService>();
+            // register dbcontext
             services.AddDbContext<NorthwindContext>(opts =>
             {
                 opts.UseSqlServer(Configuration["ConnectionStrings:NorthwindDb"]);
             });
 
+            
+     
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,12 +67,11 @@ namespace Northwind.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
-            ///set resourec to static file
+            // set folder resources to static file
             app.UseStaticFiles(new StaticFileOptions()
             {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"Resources")),
-                RequestPath = new PathString("/Resources")
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(),@"Resources")),
+                RequestPath=new PathString("/Resources")
             });
 
             app.UseRouting();
@@ -87,7 +85,8 @@ namespace Northwind.Web
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-/*            ShopeePopulateData.PopulateData(app);*/
+            //ShopeePopulateData.PopulateData(app);
+
         }
     }
 }

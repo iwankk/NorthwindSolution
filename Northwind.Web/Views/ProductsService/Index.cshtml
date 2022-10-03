@@ -1,25 +1,21 @@
 ﻿@model X.PagedList.IPagedList<Northwind.Contracts.Dto.Product.ProductDto>
 @using X.PagedList.Mvc.Core
-
-
 <link href="~/css/PagedList.css" rel="stylesheet" type="text/css"/>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index Paginaton</h1>
-@using (Html.BeginForm("Index","ProductsService", FormMethod.Get))
-{
+<h1>Product With Pagination</h1>
+
+@using (Html.BeginForm("Index","ProductsService",FormMethod.Get)){
     <div>
         <p>
-            Find By Product Name : @Html.TextBox("SearchString",ViewBag.CurrentFilter as string)
-            <input type ="submit" value ="Search"/>
-
+            Find By @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { placeholder = "Product or Company Name" })
+            <input type="submit" value="Search" />
         </p>
-    </div>    
+    </div>
 }
-
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -30,9 +26,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.FirstOrDefault().ProductName)
             </th>
-            @*<th>
-                @Html.DisplayNameFor(model => model.QuantityPerUnit)
-            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.FirstOrDefault().UnitPrice)
             </th>
@@ -42,18 +35,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.FirstOrDefault().UnitsOnOrder)
             </th>
-            @*<th>
-                @Html.DisplayNameFor(model => model.ReorderLevel)
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Category)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Discontinued)
-            </th>*@
-            <th>
-                @Html.DisplayNameFor(model => model.FirstOrDefault().Category.CategoryName)
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Supplier)
             </th>
-            @*<th>
-                @Html.DisplayNameFor(model => model.Supplier)
-            </th>*@
             <th></th>
         </tr>
     </thead>
@@ -63,9 +50,6 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ProductName)
             </td>
-            @*<td>
-                @Html.DisplayFor(modelItem => item.QuantityPerUnit)
-            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.UnitPrice)
             </td>
@@ -75,18 +59,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.UnitsOnOrder)
             </td>
-            @*<td>
-                @Html.DisplayFor(modelItem => item.ReorderLevel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Discontinued)
-            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Category.CategoryName)
             </td>
-            @*<td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
-            </td>*@
+            </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
@@ -96,4 +74,4 @@
 }
     </tbody>
 </table>
-@Html.PagedListPager(Model,page => Url.Action("Index", new {page,CurrentFilter=ViewBag.CurrentFilter}))
+@Html.PagedListPager(Model, page => Url.Action("Index", new{page, CurrentFilter = ViewBag.CurrentFilter}));

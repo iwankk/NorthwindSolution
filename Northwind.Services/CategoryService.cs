@@ -1,20 +1,22 @@
 ﻿using AutoMapper;
 using Northwind.Contracts.Dto.Category;
 using Northwind.Domain.Base;
+using Northwind.Domain.Models;
 using Northwind.Services.Abstraction;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Northwind.Services
 {
     public class CategoryService : ICategoryService
     {
-        //2 private dibawah kemudian di block kemudian ctrl + . (dot) generate constructor
-        private IRepositoryManager _repositoryManager;
+        private readonly IRepositoryManager _repositoryManager;
         private readonly IMapper _mapper;
-        
-        //defedency injection
+
+        //dependency injection
         public CategoryService(IRepositoryManager repositoryManager, IMapper mapper)
         {
             _repositoryManager = repositoryManager;
@@ -23,30 +25,38 @@ namespace Northwind.Services
 
         public void Edit(CategoryDto categoryDto)
         {
-            throw new NotImplementedException();
+            var edit = _mapper.Map<Category>(categoryDto);
+            _repositoryManager.CategoryRepository.Edit(edit);
+            _repositoryManager.Save();
         }
 
         public async Task<IEnumerable<CategoryDto>> GetAllCategory(bool trackChanges)
         {
             var categoryModel = await _repositoryManager.CategoryRepository.GetAllCategory(trackChanges);
-            //source = Category model, target Category Dto
+            // source = categoryModel, target = CategoryDto
             var categoryDto = _mapper.Map<IEnumerable<CategoryDto>>(categoryModel);
             return categoryDto;
         }
 
-        public Task<CategoryDto> GetCategoryById(string customerId, bool trackChanges)
+        public async Task<CategoryDto> GetCategoryById(int categoryId, bool trackChanges)
         {
-            throw new NotImplementedException();
+            var model = await _repositoryManager.CategoryRepository.GetCategoryById(categoryId, trackChanges);
+            var dto = _mapper.Map<CategoryDto>(model);
+            return dto;
         }
 
         public void Insert(CategoryForCreateDto categoryForCreateDto)
         {
-            throw new NotImplementedException();
+            var newData = _mapper.Map<Category>(categoryForCreateDto);
+            _repositoryManager.CategoryRepository.Insert(newData);
+            _repositoryManager.Save();
         }
 
         public void Remove(CategoryDto categoryDto)
         {
-            throw new NotImplementedException();
+            var delete = _mapper.Map<Category>(categoryDto);
+            _repositoryManager.CategoryRepository.Remove(delete);
+            _repositoryManager.Save();
         }
     }
 }

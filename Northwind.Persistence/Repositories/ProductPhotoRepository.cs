@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Northwind.Domain.Models;
 using Northwind.Domain.Repositories;
-using Northwind.Domain.Repository;
 using Northwind.Persistence.Base;
 using System;
 using System.Collections.Generic;
@@ -11,39 +10,49 @@ using System.Threading.Tasks;
 
 namespace Northwind.Persistence.Repositories
 {
-    public class ProductPhotoRepository : RepositoryBase<ProductPhoto>, IProductPhotoRepository
+    public class ProductPhotoRepository : RepositoryBase<ProductPhoto>, IProductPhotoPhotoRepository
     {
         public ProductPhotoRepository(NorthwindContext dbContext) : base(dbContext)
         {
         }
 
-        public void Edit(ProductPhoto productPhoto)
+        public void Edit(ProductPhoto ProductPhoto)
         {
-            Update(productPhoto);
+            Update(ProductPhoto);
         }
 
         public async Task<IEnumerable<ProductPhoto>> GetAllProductPhoto(bool trackChanges)
         {
-            return await FindAll(trackChanges).OrderBy(c => c.PhotoId)
-                .Include(p =>p.PhotoProduct)
+            return await FindAll(trackChanges)
+                .OrderBy(p => p.PhotoId)
+                .Include(s => s.PhotoProduct)
                 .ToListAsync();
         }
 
-        public async Task<ProductPhoto> GetProductPhotoById(int photoId, bool trackChanges)
+        public async Task<ProductPhoto> GetProductPhotoById(int ProductPhotoId, bool trackChanges)
         {
-            return await FindByCondition(c => c.PhotoId.Equals(photoId), trackChanges)
-                .Include(p => p.PhotoProduct)
+            return await FindByCondition(p => p.PhotoId.Equals(ProductPhotoId), trackChanges)
+                .Include(s => s.PhotoProduct)
                 .SingleOrDefaultAsync();
         }
 
-        public void Insert(ProductPhoto productPhoto)
+        public async Task<IEnumerable<ProductPhoto>> GetProductPhotoPaged(int pageIndex, int pageSize, bool trackChanges)
         {
-            Create(productPhoto);
+            return await FindAll(trackChanges).OrderBy(p => p.PhotoProductId)
+                .Include(s => s.PhotoProduct)
+                .Skip((pageIndex - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
         }
 
-        public void Remove(ProductPhoto productPhoto)
+        public void Insert(ProductPhoto ProductPhoto)
         {
-            Delete(productPhoto);
+            Create(ProductPhoto);
+        }
+
+        public void Remove(ProductPhoto ProductPhoto)
+        {
+            Delete(ProductPhoto);
         }
     }
 }

@@ -9,30 +9,26 @@ namespace Northwind.Contracts.Dto.Product
 {
     public class ProductForCreateDto
     {
-        [Display (Name ="Nama Produk")]
+        [Display(Name ="Product Name")]
         [Required]
-        [StringLength (50,ErrorMessage ="Nama Produk Tidak Boleh lebih dari 50")]
-
+        [StringLength(50, ErrorMessage = "Product name cannot be longer than 50")]
         public string ProductName { get; set; }
-        
-        [Display (Name ="Supplier")]
-        [Required]
+
+        [Display(Name = "Supplier")]
         public int? SupplierId { get; set; }
 
         [Display(Name = "Category")]
-        [Required]
         public int? CategoryId { get; set; }
-
         public string QuantityPerUnit { get; set; }
-        
+
         [Display(Name = "Price")]
-        [Required]
         public decimal? UnitPrice { get; set; }
+
+        [Display(Name = "Units In Stock")]
         public short? UnitsInStock { get; set; }
         public short? UnitsOnOrder { get; set; }
         public short? ReorderLevel { get; set; }
         public bool Discontinued { get; set; }
-        public virtual CategoryDto CategoryDto { get; set; }
 
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Northwind.Persistence.Base
 {
-
+    
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
 
