@@ -1,32 +1,33 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Northwind.Contracts.Dto.Order;
 using Northwind.Contracts.Dto.OrderDetail;
 using Northwind.Contracts.Dto.Product;
+using Northwind.Persistence;
 using Northwind.Services.Abstraction;
 using System;
 using System.Threading.Tasks;
 
 namespace Northwind.Web.Controllers
 {
-    public class ProductOnSaleController : Controller
+    public class CheckoutController : Controller
     {
-        private IServiceManager _serviceManajer;
+        private readonly NorthwindContext _conten;
+        private readonly IServiceManager _context;
+        private readonly IUtilityService _utilityService;
 
-        public ProductOnSaleController(IServiceManager serviceManajer)
+        public CheckoutController(NorthwindContext conten, IServiceManager context, IUtilityService utilityService)
         {
-            _serviceManajer = serviceManajer;
+            _conten = conten;
+            _context = context;
+            _utilityService = utilityService;
         }
 
-
-
-        public async Task<IActionResult> CheckoutOrder(ProductDto productDto)
+        public async Task<IActionResult>CheckoutOrder(ProductDto productDto)
         {
             if (ModelState.IsValid)
             {
                 var productId = productDto.ProductId;
-                var unitPrice = productDto.UnitPrice;
                 var order = new OrderForCreateDto();
                 {
                     order.OrderDate = DateTime.Now;
@@ -36,46 +37,39 @@ namespace Northwind.Web.Controllers
                 var orderDetail = new OrderDetailsForCreateDto();
                 {
                     orderDetail.ProductId = productId;
-                    orderDetail.UnitPrice = (decimal)unitPrice;
+                    orderDetail.UnitPrice = 0;
                     orderDetail.Quantity = 0;
                     orderDetail.Discount = 0;
-
+                    
                 }
 
-                _serviceManajer.ProductService.CreateOrderDetails(order, orderDetail);
+                _context.ProductService.CreateOrderDetails(order,orderDetail);
                 return RedirectToAction(nameof(Index));
             }
             return View(productDto);
-
+            
         }
-        // GET: ProductOnSaleControlles
+
+        // GET: CheckoutController
         public async Task<ActionResult> Index()
         {
-            //return View();
-            var productSale = await _serviceManajer.ProductService.GetProductOneSales(false);
+            var productSale = await _context.ProductService.GetProductOneSales(false);
             return View(productSale);
         }
 
-        // GET: ProductOnSaleControlles/Details/5
-        public async Task<IActionResult> Details(int id)
+        // GET: CheckoutController/Details/5
+        public ActionResult Details(int id)
         {
-            //return View();
-            if (id == null)
-            {
-                return NotFound();
-            }
-            var product = await _serviceManajer.ProductService.GetProductById((int)id, false);
-
-            return View(product);
+            return View();
         }
 
-        // GET: ProductOnSaleControlles/Create
+        // GET: CheckoutController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: ProductOnSaleControlles/Create
+        // POST: CheckoutController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -90,13 +84,13 @@ namespace Northwind.Web.Controllers
             }
         }
 
-        // GET: ProductOnSaleControlles/Edit/5
+        // GET: CheckoutController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: ProductOnSaleControlles/Edit/5
+        // POST: CheckoutController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -111,13 +105,13 @@ namespace Northwind.Web.Controllers
             }
         }
 
-        // GET: ProductOnSaleControlles/Delete/5
+        // GET: CheckoutController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: ProductOnSaleControlles/Delete/5
+        // POST: CheckoutController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

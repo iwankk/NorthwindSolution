@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Northwind.Contracts.Dto.Order;
+using Northwind.Contracts.Dto.OrderDetail;
 using Northwind.Contracts.Dto.Product;
 using Northwind.Contracts.Dto.Supplier;
 using Northwind.Domain.Base;
@@ -124,6 +126,18 @@ namespace Northwind.Services
             var productDto = await _repositoryManager.ProductRepository.GetProductSalesById(productId,trackChanges);
             var productModel =  _mapper.Map<ProductDto>(productDto);
             return productModel;
+        }
+
+        public void CreateOrderDetails(OrderForCreateDto orderForCreateDto, OrderDetailsForCreateDto orderDetailsForCreateDto)
+        {
+            var productModel = _mapper.Map<Order>(orderForCreateDto);
+            _repositoryManager.OrdersRepository.Insert(productModel);
+            _repositoryManager.Save();
+
+            var productModel1 = _mapper.Map<OrderDetail>(orderDetailsForCreateDto);
+            _repositoryManager.OrderDetailsRepository.Insert(productModel1);
+            productModel1.OrderId = productModel.OrderId;
+            _repositoryManager.Save();
         }
     }
 }

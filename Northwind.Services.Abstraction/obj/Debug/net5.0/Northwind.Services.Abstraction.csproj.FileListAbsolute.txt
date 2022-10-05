@@ -15,11 +15,6 @@ C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\
 C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services.Abstraction\obj\Debug\net5.0\refint\Northwind.Services.Abstraction.dll
 C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.pdb
 C:\Users\User\Downloads\projeck-northwind-Harfianto\projeck-northwind-Harfianto\Northwind.Services.Abstraction\obj\Debug\net5.0\ref\Northwind.Services.Abstraction.dll
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.csproj.AssemblyReference.cache
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.AssemblyInfoInputs.cache
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.AssemblyInfo.cs
-C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bin\Debug\net5.0\Northwind.Services.Abstraction.deps.json
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bin\Debug\net5.0\Northwind.Services.Abstraction.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bin\Debug\net5.0\Northwind.Services.Abstraction.pdb
@@ -27,6 +22,11 @@ C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bi
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bin\Debug\net5.0\Northwind.Domain.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bin\Debug\net5.0\Northwind.Contracts.pdb
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\bin\Debug\net5.0\Northwind.Domain.pdb
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.AssemblyInfo.cs
+C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.csproj.CopyComplete
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\Northwind.Services.Abstraction.dll
 C:\Users\User\Documents\Iwan\NorthwindSolution\Northwind.Services.Abstraction\obj\Debug\net5.0\refint\Northwind.Services.Abstraction.dll

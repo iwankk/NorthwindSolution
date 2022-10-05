@@ -30,7 +30,7 @@ namespace Northwind.Web.Mapping
             CreateMap<Order, OrderForCreateDto>().ReverseMap();
 
             CreateMap<OrderDetail, OrderDetailsDto>().ReverseMap();
-            CreateMap<Order, OrderDetailsForCreateDto>().ReverseMap();
+            CreateMap<OrderDetail, OrderDetailsForCreateDto>().ReverseMap();
         }
     }
 }
