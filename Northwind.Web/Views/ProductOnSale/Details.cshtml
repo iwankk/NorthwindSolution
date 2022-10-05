@@ -44,18 +44,19 @@
             <h5>Product Price</h5>
             <h5>Category Name</h5>
             <h5>Unit Stock</h5>
-            <h5 style="padding-bottom:13.5px;padding-left:50px;padding-top:10px">Kuantitas</h5>
-
+            @*<h5 style="padding-bottom:13.5px;padding-left:50px;padding-top:10px">Kuantitas</h5>*@
+            <h5>Quantity (between 1 and @Html.DisplayFor(Model => Model.UnitsInStock))</h5>
             @*<div class="container">
                 <button>+</button>
                 <input value="1" />
                 <button>-</button>
                 </div>*@
-            @*<a asp-action="Create" asp-route-id="@Model.ProductId">
+            <a asp-action="Create" asp-route-id="@Model.ProductId">
                 <button type="button" class="btn btn-outline-danger">Add To Chart</button>
-                </a>*@    
+                </a>    
         </div>
         <div class="col-md-6 col-lg-1" style="width:20px">
+            <h5>:</h5>
             <h5>:</h5>
             <h5>:</h5>
             <h5>:</h5>
@@ -69,12 +70,10 @@
             <h5>@Html.DisplayFor(Model =>Model.UnitPrice)</h5>
             <h5>@Html.DisplayFor(Model =>Model.Category.CategoryName)</h5>
             <h5>@Html.DisplayFor(Model =>Model.UnitsInStock)</h5>
-            <div class="input-group" style="padding-bottom:20px">
-                <button class="btn btn-outline-danger" onchange="getMinus" id="minus">-</button>
-                <p id="hasil" style="padding-left:10px;padding-right:10px;">0</p>
-                <button class="btn btn-outline-danger" onclick="getPlus('hasil',@Html.DisplayFor(Model =>Model.UnitsInStock))" id="plus">+</button>
+            
+            <div>
+            <input type="number"  id="quantity" name="QuantityPerUnit" asp-route="@Model.QuantityPerUnit" min="1" max="@Model.UnitsInStock">
             </div>
-
             <button type="submit" class="btn btn-danger">Buy Now</button>
 
         </div>
@@ -98,43 +97,5 @@
         </div>*@
 
 <script>
-    function getPlus(a, b) {
-        var minusBtn = document.getElementById("minus"),
-            plusBtn = document.getElementById("plus"),
-            numberPlace = document.getElementById("hasil"),
-            number = 0, /// number value
-            min = 0, /// min number
-            max = b; /// max number
-        for (let i = 0; i < max; i++) {
-            minusBtn.onclick = function () {
-                if (number > min) {
-                    number = number - 1; /// Minus 1 of the number
-                    numberPlace.innerText = number; /// Display the value in place of the number
-                }
-                if (number == min) {
-                    numberPlace.style.color = "red";
-                    setTimeout(function () { numberPlace.style.color = "black" }, 500)
-                }
-                else {
-                    numberPlace.style.color = "black";
-                }
-
-            }
-            plusBtn.onclick = function () {
-                if (number < max) {
-                    number = number + 1;
-                    numberPlace.innerText = number; /// Display the value in place of the number
-                }
-                if (number == max) {
-                    numberPlace.style.color = "red";
-                    setTimeout(function () { numberPlace.style.color = "black" }, 500)
-                }
-
-                else {
-                    numberPlace.style.color = "black";
-
-                }
-            }
-        }
-    }
+    
 </script>

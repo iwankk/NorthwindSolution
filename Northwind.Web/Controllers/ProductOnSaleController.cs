@@ -37,7 +37,7 @@ namespace Northwind.Web.Controllers
                 {
                     orderDetail.ProductId = productId;
                     orderDetail.UnitPrice = (decimal)unitPrice;
-                    orderDetail.Quantity = 0;
+                    orderDetail.Quantity = Convert.ToInt16(productDto.QuantityPerUnit);
                     orderDetail.Discount = 0;
 
                 }
